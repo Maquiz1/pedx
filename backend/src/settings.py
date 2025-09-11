@@ -59,6 +59,16 @@ DATABASES = {
 
 # Installed apps
 INSTALLED_APPS = [
+    'patients',
+    'staff',
+    'visits',
+    'records',
+    'departments',
+    'billing',
+    'pharmacy',
+    'laboratory',
+    'opd',
+    'clinic',
     "documents.apps.DocumentsConfig",
     "reports.apps.ReportsConfig",
     "clinical.apps.ClinicalConfig",
